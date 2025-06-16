@@ -1,0 +1,2 @@
+# automated-resume-parser
+This project is developed as part of my internship at Codec Technologies. It is an Automated Resume Parser that extracts important information such as name, contact details, skills, experience, education, and more from resume files (PDF/DOCX). The goal is to streamline the recruitment process by converting unstructured resume data into structured, readable formats for easier analysis.
