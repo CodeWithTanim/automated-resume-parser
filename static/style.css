@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 80px; /* space for footer */
+}
+
+/* Container */
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* Form */
+form {
+    margin-bottom: 30px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #fff;
+    color: #333;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff4b2b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff3a1a;
+}
+
+/* Output */
+.output {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Error */
+.error {
+    color: #ffbbbb;
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    font-size: 0.95rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
